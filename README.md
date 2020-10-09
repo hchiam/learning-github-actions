@@ -11,9 +11,7 @@ Testing out `markdown-link-check` on this repo:
 ## Setup
 
 ```bash
-mkdir .github
-mkdir .github/workflows
-touch .github/workflows/action.yml
+mkdir .github && mkdir .github/workflows && touch .github/workflows/action.yml
 ```
 
 Then edit `action.yml`
