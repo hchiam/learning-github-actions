@@ -1,4 +1,4 @@
-# Learning template
+# Learning GitHub Actions
 
 Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
@@ -18,4 +18,8 @@ touch .github/workflows/action.yml
 
 Then edit `action.yml`
 
+When you push, you'll see results here: <https://github.com/hchiam/learning-github-actions/actions>
+
 More info: <https://docs.github.com/en/free-pro-team@latest/actions/quickstart>
+
+Intentionally broken link: <https://github.com/hchiam/learning-github-actions/actionsy>
