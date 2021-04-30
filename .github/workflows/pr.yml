@@ -1,0 +1,11 @@
+name: GitHub Actions Demo
+
+on: [pull_request]
+  types: [review_requested]
+
+jobs:
+  Example-GitHub-Action-Name:
+    runs-on: ubuntu-latest
+    steps:
+      - run: cypress install
+      - run: cypress run

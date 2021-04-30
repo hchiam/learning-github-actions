@@ -27,3 +27,9 @@ Intentionally broken link: <https://github.com/hchiam/learning-github-actions/ac
 Successfully detected broken link in `README.md`!
 
 <img src="results-example.png">
+
+## Learn more
+
+<https://docs.github.com/en/actions/quickstart>
+
+<https://docs.github.com/en/actions/reference/events-that-trigger-workflows>
