@@ -27,3 +27,32 @@ Intentionally broken link: <https://github.com/hchiam/learning-github-actions/ac
 Successfully detected broken link in `README.md`!
 
 <img src="results-example.png">
+
+## Learn more
+
+<https://docs.github.com/en/actions/quickstart>
+
+<https://docs.github.com/en/actions/reference/events-that-trigger-workflows>
+
+<https://github.com/marketplace/actions/cypress-io>
+
+## Replace Travis CI with GitHub Actions
+
+<https://github.com/hchiam/learning-github-actions/pull/2>
+
+```yml
+name: GitHub Actions Demo
+
+on:
+  [pull_request]
+  types: [review_requested]
+
+jobs:
+  Example-GitHub-Action-Name:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2 # this will use https://github.com/actions/checkout
+      - name: Cypress run
+        uses: cypress-io/github-action@v2 # this will use https://github.com/cypress-io/github-action
+```
