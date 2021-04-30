@@ -35,3 +35,22 @@ Successfully detected broken link in `README.md`!
 <https://docs.github.com/en/actions/reference/events-that-trigger-workflows>
 
 <https://github.com/marketplace/actions/cypress-io>
+
+## Replace Travis CI with GitHub Actions
+
+```yml
+name: GitHub Actions Demo
+
+on:
+  [pull_request]
+  types: [review_requested]
+
+jobs:
+  Example-GitHub-Action-Name:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2 # this will use https://github.com/actions/checkout
+      - name: Cypress run
+        uses: cypress-io/github-action@v2 # this will use https://github.com/cypress-io/github-action
+```
