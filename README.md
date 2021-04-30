@@ -38,7 +38,7 @@ Successfully detected broken link in `README.md`!
 
 ## Replace Travis CI with GitHub Actions
 
-<https://github.com/hchiam/learning-github-actions/pull/2>
+All you have to do is add a `.github/workflows/some_file_name.yml` file to your GitHub repo! For example:
 
 ```yml
 name: GitHub Actions Demo
@@ -56,3 +56,9 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v2 # this will use https://github.com/cypress-io/github-action
 ```
+
+<https://github.com/hchiam/learning-github-actions/pull/2>
+
+<img src="another-example.png">
+
+<https://github.com/hchiam/learning-github-actions/runs/2472169652>
