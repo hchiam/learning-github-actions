@@ -44,8 +44,8 @@ All you have to do is add a `.github/workflows/some_file_name.yml` file to your 
 name: GitHub Actions Demo
 
 on:
-  [pull_request]
-  types: [review_requested]
+  pull_request:
+    types: [review_requested]
 
 jobs:
   Example-GitHub-Action-Name:
