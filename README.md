@@ -38,6 +38,8 @@ Successfully detected broken link in `README.md`!
 
 ## Replace Travis CI with GitHub Actions
 
+<https://github.com/hchiam/learning-github-actions/pull/2>
+
 ```yml
 name: GitHub Actions Demo
 
