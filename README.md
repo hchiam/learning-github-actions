@@ -53,6 +53,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2 # this will use https://github.com/actions/checkout
+      # - run: npm run some-script
       - name: Cypress run
         uses: cypress-io/github-action@v2 # this will use https://github.com/cypress-io/github-action
 ```
@@ -62,3 +63,5 @@ jobs:
 <img src="another-example.png">
 
 <https://github.com/hchiam/learning-github-actions/runs/2472169652>
+
+<https://github.com/hchiam/slides/blob/952dcc8bb5c756aaaf9c7235723ce4a8e3f5ee0d/.github/workflows/run_cypress_tests.yml#L15>
