@@ -8,5 +8,10 @@ jobs:
   Example-GitHub-Action-Name:
     runs-on: ubuntu-latest
     steps:
-      - run: npm install
-      - run: npx cypress run
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      # - run: npm install
+
+      - name: Cypress run
+        uses: cypress-io/github-action@v2

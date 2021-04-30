@@ -33,3 +33,5 @@ Successfully detected broken link in `README.md`!
 <https://docs.github.com/en/actions/quickstart>
 
 <https://docs.github.com/en/actions/reference/events-that-trigger-workflows>
+
+<https://github.com/marketplace/actions/cypress-io>
