@@ -65,3 +65,11 @@ jobs:
 <https://github.com/hchiam/learning-github-actions/runs/2472169652>
 
 <https://github.com/hchiam/slides/blob/952dcc8bb5c756aaaf9c7235723ce4a8e3f5ee0d/.github/workflows/run_cypress_tests.yml#L15>
+
+## A more recent example
+
+<https://github.com/hchiam/test-blingblingjs/blob/main/.github/workflows/main.yml>
+
+```yml
+on: [push, pull_request]
+```
